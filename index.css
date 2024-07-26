@@ -523,6 +523,9 @@ body{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Robo
 #section .sec2_congroup>li img{
   width: 210px; min-width: 170px;
 }
+#section .sec2_congroup>li{
+  width: 210px;
+}
 #section .sec2 .sec2_congroup li>p{
   font-size: 13pt;
 }
@@ -693,7 +696,10 @@ font-size: 20pt;}
     min-width: 470px; margin-bottom: 50px;
   }
   #section .sec2_congroup>li img{
-    width: 100px;
+    width: 180px;
+  }
+  #section .sec2_congroup>li{
+    width: 180px;
   }
   #section .sec2_congroup>li:last-child{
     display: none;
