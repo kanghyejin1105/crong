@@ -175,8 +175,6 @@ body{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Robo
   overflow: hidden;
   position: relative;
 }
-
-
 #section .sec3 .sec3_title{
   display: block;
   width: 200%;height: 30px;
@@ -184,6 +182,7 @@ body{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Robo
   background-color: #888; color: #fff;
   animation: marquee 40s linear infinite;
   padding: 10px;
+  line-height: 40px;
 }
 
 @keyframes marquee {
@@ -632,7 +631,7 @@ font-size: 20pt;}
     position:absolute; right:0px;top:35px;
   }
   #header .hammenu img{
-    width: 30px;
+    width: 20px;
     cursor: pointer;
   }
   #header .hammenu{
@@ -665,7 +664,7 @@ font-size: 20pt;}
     position: absolute;
     left: 30px;top:10px;
     z-index: 1000;
-    font-size: 3vw; font-weight: 400;
+    font-size: 4vw; font-weight: 400;
     cursor: pointer;
   }
   #header .x_menu:hover{
