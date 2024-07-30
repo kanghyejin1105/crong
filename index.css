@@ -184,7 +184,7 @@ body{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Robo
   animation: marquee 40s linear infinite;
   padding: 10px;
   line-height: 35px;
-  font-size: min(3vw,25pt);
+  font-size: min(4vw,25pt);
 }
 
 @keyframes marquee {
@@ -246,7 +246,7 @@ body{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Robo
 #section .button{
   width: 30%; height: 40px; margin: 0 auto;
   border-radius: 10px;line-height: 40px;
-  text-align: center;font-size: min(3vw,19pt);
+  text-align: center;font-size: min(3vw,20pt);
   background-color: #2e589a; color: #fff;
   cursor: pointer; transition: all 0.4s;
 }
@@ -259,7 +259,7 @@ body{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Robo
 #section .sec4 .sec4_title{
   width: 100%; margin-bottom: 30px;
   margin-top: 50px; text-align: center;
-  font-size: min(3vw,25pt); transition: all 0.5s;
+  font-size: min(4vw,25pt); transition: all 0.5s;
 }
 #section .sec4_con .backgirl{
   width: 50%;
