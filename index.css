@@ -184,7 +184,7 @@ body{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Robo
   animation: marquee 40s linear infinite;
   padding: 10px;
   line-height: 35px;
-  font-size: min(4vw,25pt);
+  font-size: min(3vw,25pt);
 }
 
 @keyframes marquee {
@@ -246,7 +246,7 @@ body{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Robo
 #section .button{
   width: 30%; height: 40px; margin: 0 auto;
   border-radius: 10px;line-height: 40px;
-  text-align: center;font-size: min(3vw,20pt);
+  text-align: center;font-size: min(3vw,19pt);
   background-color: #2e589a; color: #fff;
   cursor: pointer; transition: all 0.4s;
 }
@@ -259,7 +259,7 @@ body{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Robo
 #section .sec4 .sec4_title{
   width: 100%; margin-bottom: 30px;
   margin-top: 50px; text-align: center;
-  font-size: min(4vw,25pt); transition: all 0.5s;
+  font-size: min(3vw,25pt); transition: all 0.5s;
 }
 #section .sec4_con .backgirl{
   width: 50%;
@@ -421,7 +421,7 @@ body{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Robo
   margin-bottom: 20px;
 }
 
-/* 테블릿 */
+/* ---------테블릿 -----------------------------------------------------------------------*/
 @media all and (min-width:769px) and (max-width:1024px){
 #header{
   width: 100%;position: relative;
@@ -484,7 +484,7 @@ body{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Robo
 }
 
 
-/* 섹션 */
+/* 태블릿 섹션 */
 #section .sec1{
   width: 100%; height: 400px;
   background-size: 100%;
@@ -532,11 +532,11 @@ body{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Robo
   float: none; 
 }
 #section .sec3 .ad1 p{
-  float:none;margin: 0 auto;
+  float:none; margin: 0 auto;
 }
 
 #section .sec3 .ad1 .ad1_con1{
-  width: 50%; min-width: 406px; text-align: center;
+  width: 50%; min-width: 406px; text-align: center;font-size: 12pt;
 }
 #section .sec3 .ad1_con2{
   z-index: -500; width: 70%;
@@ -553,8 +553,13 @@ body{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Robo
 #section .sec4 .sec4_congroup{
   width: 50%;
 }
-#section .sec4 .sec4_con .girl{
-  display: none;
+#section .sec4_con .backgirl{
+  width: 50%;
+  background-image: url(images/web_33.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: left;
+  background-attachment:local;
 }
 #section .sec5{
   width: 100%;
@@ -588,6 +593,12 @@ body{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Robo
 #footer .footer_1 img{
   width: 30%;
 }
+#footer .footer_1 .privacy a{
+  font-size: 10pt;
+}
+#footer .footer_1 address{
+  font-size: 10pt;
+}
 #footer .footer_2{
   display: none;
 }
@@ -595,7 +606,7 @@ body{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Robo
   display: none;
 }
 }
-/* -----모바일---- */
+/* -----모바일------------------------------------------------------------------- */
 @media all and (max-width: 768px){
   #header{
     width: 100%;position: relative;
@@ -664,7 +675,7 @@ body{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Robo
     width: 100%;
   }
   #section .sec2 .sec2_title{
-    margin-top: 20px;
+    margin-top: 20px; font-size: 20pt;
   }
   #section .sec2 .nav{
     width: 100%; margin: 0 auto;
@@ -699,10 +710,9 @@ body{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Robo
   }
   #section .sec3 .ad1 img{
     width: 100%; height: 200px; object-fit: cover; 
-    object-position: center top;
+    object-position: 50% 0%;;
     text-align: center;
     margin: 50px 0px;
-
   }
   #section .sec3 .ad1_con1{
     display: none;
@@ -716,7 +726,12 @@ body{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Robo
   #section .sec3 .ad2_3{
     display: none;
   }
-
+  #section .sec4 .sec4_title{
+    font-size: 20pt;
+  }
+  #section .sec4 h3{
+    font-size:14pt;
+  }
   #section .sec4 .backgirl{
     display: none;
   }
@@ -762,6 +777,12 @@ body{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Robo
   }
   #footer .footer_1 .privacy{
     margin-top: 10px;
+  }
+  #footer .footer_1 .privacy a{
+    font-size: 9pt;
+  }
+  #footer .footer_1 address{
+    font-size: 9pt;
   }
   #footer .footer_1 img{
     width: 40%;
